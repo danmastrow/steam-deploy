@@ -2,7 +2,7 @@ name: 🚀
 
 on:
   pull_request: {}
-  push: { branches: [master] }
+  push: { branches: [testing] }
 
 jobs:
   deploy:
@@ -23,3 +23,4 @@ jobs:
           depot2Path: StandaloneLinux64
           releaseBranch: PreRelease
           localContentServer: LocalContentServer
+          previewEnabled: true
